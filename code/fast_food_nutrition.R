@@ -1,6 +1,6 @@
 install.packages("readxl")
 library(readxl)
-setwd("C:/Users/areef/OneDrive - The University of Texas-Rio Grande Valley/Introduction To Data science/Homework/HW-1")
+# Data lives in data/ relative to the repo root
 
 fast_food_nutrition = read_excel("data/fast_foods_nutritional_information.xlsx")
 str(fast_food_nutrition)
